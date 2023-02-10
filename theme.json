@@ -4,6 +4,13 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"custom": false,
+			"duotone": [],
+			"customGradient": false,
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"gradients": [],
+			"link": false,
 			"palette": [
 				{
 					"slug": "background",
@@ -29,30 +36,6 @@
 					"slug": "transparent",
 					"color": "transparent",
 					"name": "Transparent"
-				}
-			],
-			"gradients": [
-				{
-					"slug": "primary-white",
-					"gradient": "linear-gradient(#e71845 49.9%,#fff 50%)",
-					"name": "Primary color to white"
-				},
-				{
-					"slug": "white-primary",
-					"gradient": "linear-gradient(#fff 49.9%,#e71845 50%)",
-					"name": "Horizontal white to Primary color"
-				}
-			],
-			"duotone": [
-				{
-					"colors": [ "#e1d636", "#e71845"],
-					"slug": "secondary-primary",
-					"name": "Secondary and primary"
-				},
-				{
-					"colors": ["#e71845", "#f0f0f1"],
-					"slug": "primary-foreground",
-					"name": "Primary and foreground"
 				}
 			]
 		},
