@@ -20,6 +20,7 @@ define( 'ENOUGH_VERSION', wp_get_theme()->get( 'Version' ) );
  */
 function enough_setup() {
 	add_editor_style( './assets/css/style-shared.min.css' );
+	add_editor_style( 'editor.css' );
 
 	/*
 	 * Load additional block styles.
@@ -55,6 +56,12 @@ function enough_styles() {
 	wp_enqueue_style(
 		'enough-shared-styles',
 		get_theme_file_uri( 'assets/css/style-shared.min.css' ),
+		[],
+		ENOUGH_VERSION
+	);
+	wp_enqueue_style(
+		'enough-adobe-fonts',
+		esc_url('https://use.typekit.net/zso4coz.css'),
 		[],
 		ENOUGH_VERSION
 	);
